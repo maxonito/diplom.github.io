@@ -3262,12 +3262,9 @@ footer .copyright {
 }
 
 .modal-form {
-    width: 600px;
+    max-width: 600px;
     height: auto;
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 50px
+    padding: 50px;
 }
 
 .modal-form h2 {
@@ -3330,7 +3327,7 @@ span.text-form {
     margin-bottom: 10px;
     padding: 3px;
     padding-left: 10px;  
-    color:#9b9b9b;
+    color: inherit;;
     -webkit-border-radius: 32px;
     border-radius: 5px;
 }
@@ -3340,6 +3337,14 @@ span.text-form:hover {
     padding: 1px;
     padding-left: 10px;
     color: black;
+}
+
+.modal-form {
+    width: 100%;
+}
+
+.modal-form .input{
+    width: 100%;
 }
 
 
@@ -3360,7 +3365,7 @@ span.text-form:hover {
 
 .modal-form textarea {
     display: block;
-    width: 484px;
+    width: 100%;
     min-height: 75px;
     padding: 0 10px;
     background: #edf0f0;
@@ -3765,12 +3770,26 @@ span.text-form:hover {
         padding-bottom: 0
     }
 
+    .modal-form {
+     padding: 0;
+
+    }
+
+    .modal-form input.button-red {
+     margin: 0 auto;
+     width: 100%;
+    }
+
 }
 
 @media only screen and (max-width:480px) {
     h1 {
         margin-bottom: 0;
         font-size: 34px;
+    }
+
+    .modal-form .text-form, .modal-form .input {
+        letter-spacing: 0.0001px;
     }
 
     .header {
@@ -3858,6 +3877,21 @@ span.text-form:hover {
 
    #devpay2 p {
     padding-bottom: 0;
+   }
+
+   .modal-form {
+    padding: 0;
+
+   }
+
+   .modal-form input.button-red {
+    margin: 0 auto;
+    width: 100%;
+   }
+
+   .text-form .input-short, .modal-form .input, .modal-form .text-form  {
+    font-size: 12px;
+    letter-spacing: 0;
    }
 
 
@@ -3962,6 +3996,21 @@ span.text-form:hover {
 
    .img-responsive {
     width: 100%;
+   }
+
+   .modal-form {
+    padding: 0;
+
+   }
+
+   .modal-form input.button-red {
+    margin: 0 auto;
+    width: 100%;
+   }
+
+   .text-form .input-short, .modal-form .input, .modal-form .text-form  {
+    font-size: 11px;
+    letter-spacing: -1px;
    }
 
 
