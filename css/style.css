@@ -3756,7 +3756,12 @@ span.text-form {
 
 @media only screen and (max-width:480px) {
     h1 {
-        font-size: 36px;
+        margin-bottom: 0;
+        font-size: 34px;
+    }
+
+    .header {
+        padding-top: 0;
     }
 
     .top-menu a {
@@ -3769,10 +3774,10 @@ span.text-form {
         padding-top: 20px;
     }
 
-    .press {
+    .mob-but .press {
         background-image: none;
-        padding-top: 20px;
-        padding-left: 20px
+        margin: 10px auto;
+        text-align: center;
     }
     .sp-slide-text {
         width: 300px
@@ -3817,6 +3822,33 @@ span.text-form {
      width: 100%;
      padding-left: 30px;
     } 
+
+    #dipl-small {
+    padding-top: 0;
+   }
+
+   .top {
+    padding-bottom: 15px;
+   }
+
+   section h2 {
+    padding: 20px 0;
+   }
+
+   #blue-but {
+    padding: 25px 0 20px 0;
+   }
+
+   .comments {
+    padding-bottom: 0;
+   }
+
+   #devpay2 p {
+    padding-bottom: 0;
+   }
+
+
+
 }
 
 @media only screen and (max-width:320px) {
@@ -3837,7 +3869,7 @@ span.text-form {
     }
 
     .header {
-        padding-top: 30px;
+        padding-top: 0;
     }
 
     .price {
@@ -3888,9 +3920,36 @@ span.text-form {
     padding-left: 30px;
    } 
 
+   #dipl-small {
+    padding-top: 0;
+   }
 
+   .mob-but .press {
+       background-image: none;
+       margin: 10px auto;
+       text-align: center;
+   }
 
+   .top {
+    padding-bottom: 15px;
+   }
 
+   section h2 {
+    padding: 20px 0;
+    font-size: 24px;
+   }
+
+   #blue-but {
+    padding: 30px 0;
+   }
+
+   .comments {
+    padding-bottom: 10px;
+   }
+
+   .img-responsive {
+    width: 100%;
+   }
 
 
 }
