@@ -3452,6 +3452,9 @@ span.text-form {
 }
 
 @media only screen and (max-width:768px) {
+    .comments {
+     padding-bottom: 0;
+    }
     .press {
         padding-top: 60px;
         padding-left: 55px;
@@ -3752,6 +3755,7 @@ span.text-form {
     .diplom .diplom-title {
         padding-bottom: 0
     }
+
 }
 
 @media only screen and (max-width:480px) {
@@ -3950,6 +3954,8 @@ span.text-form {
    .img-responsive {
     width: 100%;
    }
+
+
 
 
 }
