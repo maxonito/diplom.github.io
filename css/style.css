@@ -3891,7 +3891,11 @@ span.text-form:hover {
 
    .text-form .input-short, .modal-form .input, .modal-form .text-form  {
     font-size: 12px;
-    letter-spacing: 0;
+    letter-spacing: -1px;
+   }
+
+   .text-form .input-short {
+    padding-left: 0;
    }
 
 
@@ -4006,6 +4010,10 @@ span.text-form:hover {
    .modal-form input.button-red {
     margin: 0 auto;
     width: 100%;
+   }
+
+   .text-form .input-short {
+    padding-left: 0;
    }
 
    .text-form .input-short, .modal-form .input, .modal-form .text-form  {
