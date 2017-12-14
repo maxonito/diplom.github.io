@@ -717,9 +717,9 @@
                 <input type="hidden" name="form_subject" value="Form Subject">
                 
                 <input required type="text" name="name" placeholder="* Ф.И.О" class="input">
-                <span>Дата рождения:</span> <input type="date" name="Data rozhdeniia" class="input-short input-width">
+                <span class="text-form">Дата рождения:<input type="date" name="Data rozhdeniia" class="input-short"></span>
                 <input type="text" name="Mesto rozhdeniia" placeholder="Место рождения (город/область)" class="input">
-                <span class="text-form">Предыдущее образование:</span>
+                <span class="text-form">Предыдущее образование:
                                         <select name="prev obr" id="prev-obr" class="input-short input-width-short">
                                             <option value="vus">ВУЗ</option>
                                             <option value="school">Школа</option>
@@ -729,24 +729,25 @@
                                             <option value="PTU">ПТУ</option>
                                             <option value="another">Другое</option>
                                         </select>
-
+                </span>
                 <input type="text" name="Mesto predydushchego obrazovaniia" placeholder="Место предыдущего образования (полное название)" class="input">
                 <input type="text" name="God okonchaniia predydushchego obrazovaniia" placeholder="Год окончания предыдущего образования" class="input">
                 <input type="text" name="Naimenovanie zhelaemogo uchebnogo zavedeniia" placeholder="Наименование желаемого учебного заведения" class="input">
                 <input type="text" name="Gorod uchebnogo zavedeniia" placeholder="Город учебного заведения" class="input">
-                <span class="text-form">Форма обучения:</span>
-                                <select name="Forma obucheniia" id="prev-obr" class="input-short input-width">
+                <span class="text-form">Форма обучения:
+                                <select placeholder="дАТА" name="Forma obucheniia" id="prev-obr" class="input-short">
                                     <option value="vus">ОЧНАЯ</option>
                                     <option value="school">ЗАОЧНАЯ</option>
                                     <option value="tech">ОЧНО-ЗАОЧНАЯ</option>
                                     <option value="kolledzh">ДИСТАНЦИОННАЯ</option>
                                 </select>
+                </span>
 
                 <input type="text" name="Goda obucheniia" placeholder="Года обучения" class="input">
                 <input type="text" name="Spetcialnost" placeholder="Желамая специальность" class="input">
                 <input type="text" name="Kvalifikatciia" placeholder="Квалификация" class="input">
                 <input type="text" name="Ocenki" placeholder="Оценки (пример: 70% - 4, 30% - 5)" class="input">
-                <span class="text-form">Дата выдачи документа:</span><input type="date" name="Data vydachi dokumenta" placeholder="Дата выдачи документа" class="input-short input-width-short">
+                <span class="text-form">Дата выдачи документа:<input type="date" name="Data vydachi dokumenta" placeholder="Дата выдачи документа" class="input-short"></span>
                 <input type="text" name="Tema diplomnoi raboty" placeholder="Тема дипломной работы (если есть предпочтения)" class="input">
                 <input type="text" name="Ocenka za diplomnuiu rabotu" placeholder="Оценка за дипломную работу" class="input">
                 <input type="text" name="F.I.O. poluchatelia" placeholder="Ф.И.О. получателя" class="input">
