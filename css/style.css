@@ -4013,19 +4013,25 @@ span.text-form:hover {
      padding: 20px 0;
     }
 
+    .panel-title {
+        position: relative;
+    }
+
     .panel-title a {
      display: inline-block;
      width: 60%;
+     margin-left: 40px;
     }
     .panel-title span.yellow {
      display: inline-block;
-     background-color: yellow;
+     background-color: rgb(255, 200, 10);
      padding: 3px 7px;
      border-radius: 20px;  
      font-size: 14px;
      font-weight: bold;
      margin-right: 20px;
-     position: relative;
+     position: absolute;
+     top: 50%;
      transform: translateY(-50%);
      top: 50%;
 
@@ -4223,22 +4229,27 @@ span.text-form:hover {
     padding: 20px 0;
    }
 
+   .panel-title {
+    position: relative;
+   }
 
    .panel-title a {
     display: inline-block;
     width: 60%;
+    margin-left: 40px  ;
    }
    .panel-title span.yellow {
     display: inline-block;
-    background-color: yellow;
+    background-color: rgb(255, 200, 10);
     padding: 3px 7px;
     border-radius: 20px;  
     font-size: 14px;
     font-weight: bold;
     margin-right: 20px;
-    position: relative;
-    transform: translateY(-50%);
-    top: 50%;
+    position: absolute;
+    top: 50%;                         
+    transform: translate(0, -50%);
+    
 
    }
 
