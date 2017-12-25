@@ -19,6 +19,17 @@ a:hover {
     text-decoration: none;
 }
 
+a:visited {
+    text-decoration: none;
+    text-style: none;
+
+}
+
+*:visited, *:hover, *:active, *:focus {
+    outline: none;
+    outline-offset: 0;
+}
+
 // -Мои стили
 
 html {
@@ -287,8 +298,7 @@ a:hover {
 }
 
 a:focus {
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px
+    
 }
 
 figure {
@@ -3239,6 +3249,7 @@ footer .copyright {
     position: fixed;
     top: 170px;
     right: 20px;
+    z-index: 100;
     text-align: right
 }
 
@@ -3668,10 +3679,10 @@ span.text-form:hover {
     #cat-4 {
         margin-bottom: 40px
     }
-    #cat-1 h2,
-    #cat-2 h2,
-    #cat-3 h2,
-    #cat-4 h2 {
+    #categ-1 h2,
+    #categ-2 h2,
+    #categ-3 h2,
+    #categ-4 h2 {
         display: none
     }
     #cat-1 .h2,
@@ -3823,6 +3834,10 @@ span.text-form:hover {
       font-size: 20px;
       padding: 20px 0;
      }
+
+      #categ-1, #categ-2, #categ-3, #categ-4 {
+        display: none;
+    }
 
 }
 
@@ -4036,12 +4051,26 @@ span.text-form:hover {
      top: 50%;
 
     }
+     #categ-1, #categ-2, #categ-3, #categ-4 {
+        display: none;
+    }
+     #cat-1 h2, #cat-2 h2, #cat-3 h2, #cat-4 h2 {
+        display: none;
+    }
 
 
 
 }
 
 @media only screen and (max-width:320px) {
+
+    #cat-1 h2, #cat-2 h2, #cat-3 h2, #cat-4 h2 {
+        display: none;
+    }
+
+    #categ-1, #categ-2, #categ-3, #categ-4 {
+        display: none;
+    }
     .top-menu {
         padding-top: 20px
     }
@@ -4254,3 +4283,12 @@ span.text-form:hover {
    }
 
 }
+
+
+a:focus {
+    outline-width: 0;
+    text-decoration: none;
+}
+
+
+
